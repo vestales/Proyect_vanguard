@@ -1,0 +1,5 @@
+data:
+  pt_1: 'C:\Users\germa\Documents\GitHub\Proyect_vanguard\data\df_final_web_data_pt_1.txt'
+  pt_2: 'C:\Users\germa\Documents\GitHub\Proyect_vanguard\data\df_final_web_data_pt_2.txt'
+  demo: 'C:\Users\germa\Documents\GitHub\Proyect_vanguard\data\df_final_demo.txt'
+  experimet_clients:  'C:\Users\germa\Documents\GitHub\Proyect_vanguard\data\df_final_experiment_clients.txt'
