@@ -3,3 +3,4 @@ seaborn = 0.12.2
 yaml = 0.2.5
 pyyaml = 6.0.1
 plotly = 5.19.0
+scipy = 1.13.0
