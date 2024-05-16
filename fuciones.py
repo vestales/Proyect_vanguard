@@ -141,8 +141,9 @@ def hipotesis_test(df):
 
     #significance level = 0.05
 
-    df_test = df[(df["Variation"].isin("Test"))]
-    df_control = df[(df["Variation"].isin("Control"))]
+    df_test = df[(df["process_step"] == "confirm") & (df["Variation"] == "Test")].groupby(by="visit_id")["client_id"].count()
+
+    df_control = df[(df["process_step"] == "confirm") & (df["Variation"] == "Control")].groupby(by="visit_id")["client_id"].count()
     statistic, pvalue = st.ttest_ind(df_test, df_control, equal_var=False,alternative="greater")
 
     if pvalue > 0.05:
@@ -206,7 +207,7 @@ def grafico_error(df):
        'step_2_step_1', 'step_3_step_2',
        'step_1_start', 'step_3_start', 'step_2_start']
 
-    df_error = df[(df["step"].isin(list_rute_reves))].groupby("step").count()["client_id"].reset_index()
+    df_error = df[(df["step"].isin(list_rute_reves))].groupby("Variation").count()["client_id"].reset_index()
     fig = px.pie(df_error, values='client_id', names='Variation', title='Porcentaje de errores')
     fig.show()
 
@@ -221,7 +222,7 @@ def grafico_error_test(df):
        'step_1_start', 'step_3_start', 'step_2_start']
 
     df_error = df[(df["step"].isin(list_rute_reves)) & (df["Variation"] == "Test")].groupby("step").count()["client_id"].reset_index()
-    fig = px.pie(df_error, values='client_id', names='Variation', title='Porcentaje de errores')
+    fig = px.pie(df_error, values='client_id', names='step', title='Porcentaje de errores')
     fig.show()
 
     return None
@@ -235,7 +236,7 @@ def grafico_error_control(df):
        'step_1_start', 'step_3_start', 'step_2_start']
 
     df_error = df[(df["step"].isin(list_rute_reves)) & (df["Variation"] == "Control")].groupby("step").count()["client_id"].reset_index()
-    fig = px.pie(df_error, values='client_id', names='Variation', title='Porcentaje de errores')
+    fig = px.pie(df_error, values='client_id', names='step', title='Porcentaje de errores')
     fig.show()
 
     return None
@@ -277,4 +278,5 @@ def hipotesis_edad(df):
 
 def crear_base_de_datos(df):
     df.to_csv("lectura_datos.csv", sep=",", index=False, encoding="utf-8")
+    print("Se ha guardado la base de datos limpia correctamente.")
 
