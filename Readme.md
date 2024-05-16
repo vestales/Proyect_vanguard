@@ -19,3 +19,26 @@ Hola somos Elena y German y somos estudiantes de Data Analyst en Ironhack. Y en 
 - Prueba de hipotesis.
 - Evaluacion del experimento.
 - Creacion del tableau.
+
+## 📊 Insights visuales
+
+![Personas por test y genero](https://drive.google.com/file/d/1FAPNtvbXMtNFGfQc2fRoV0tY6nT1xlmC/view?usp=drive_link)
+
+Aqui vemos que el volumen de gente que participa en los test por genero.
+
+![Personas por edad](https://drive.google.com/file/d/1JJQ_FGW2JdX8nipPzvzkjj4HdiXfrFW_/view?usp=drive_link)
+
+Aqui vemos como esta repartida la edad de los participantes.
+
+![Personas que han finalizado el test](https://drive.google.com/file/d/1KCYr5_rbMWQdRzeuQWeri2JODQT2rnm8/view?usp=sharing)
+
+![Personas que han finalizado el control](https://drive.google.com/file/d/1Hyvi7AhjFwJ70zzqNfUuySxxFHHcjQts/view?usp=sharing)
+
+
+![Personas que han llegado a cada paso](https://drive.google.com/file/d/1CYwmZk6g8ZqIYIUjD7wVXdHE7rrQD5Ap/view?usp=sharing)
+
+
+
+![Tiempo que ha tardado en cada paso](https://drive.google.com/file/d/127o47P-TERdRcJLPI4j-8ATvijHcphdA/view?usp=sharing)
+
+![Porcentaje de errores](https://drive.google.com/file/d/1InNQbcJ9jMZuqk947X_hJoXK1AXtS-aq/view?usp=sharing)
