@@ -192,7 +192,7 @@ def hipotesis_error(df):
     #significance level = 0.05
 
     
-    statistic, pvalue = st.ttest_ind(list_error_control, list_error_test, equal_var=False,alternative="greater")
+    statistic, pvalue = st.ttest_ind(list_error_test, list_error_control, equal_var=False,alternative="greater")
 
     if pvalue > 0.05:
         print("No hay evidencia suficiente para saber si la gente del nuevo sitio web tiene mas errores que la del viejo.")
@@ -222,7 +222,7 @@ def grafico_error_test(df):
        'step_1_start', 'step_3_start', 'step_2_start']
 
     df_error = df[(df["step"].isin(list_rute_reves)) & (df["Variation"] == "Test")].groupby("step").count()["client_id"].reset_index()
-    fig = px.pie(df_error, values='client_id', names='step', title='Porcentaje de errores')
+    fig = px.pie(df_error, values='client_id', names='step', title='Porcentaje de errores en Test')
     fig.show()
 
     return None
@@ -236,7 +236,7 @@ def grafico_error_control(df):
        'step_1_start', 'step_3_start', 'step_2_start']
 
     df_error = df[(df["step"].isin(list_rute_reves)) & (df["Variation"] == "Control")].groupby("step").count()["client_id"].reset_index()
-    fig = px.pie(df_error, values='client_id', names='step', title='Porcentaje de errores')
+    fig = px.pie(df_error, values='client_id', names='step', title='Porcentaje de errores en Control')
     fig.show()
 
     return None
