@@ -30,7 +30,7 @@ Hola somos Elena y German y somos estudiantes de Data Analyst en Ironhack. Y en 
 
 ![Personas por test y genero](https://drive.google.com/uc?export=view&id=1FAPNtvbXMtNFGfQc2fRoV0tY6nT1xlmC)
 
-![Personas por test y genero](https://drive.google.com/file/d/1FAPNtvbXMtNFGfQc2fRoV0tY6nT1xlmC/view?usp=drive_link)
+![Personas por test y genero](https://drive.google.com/file/d/1FAPNtvbXMtNFGfQc2fRoV0tY6nT1xlmC/view?usp=sharing)
 
 Aqui vemos que el volumen de gente que participa en los test por genero.
 
