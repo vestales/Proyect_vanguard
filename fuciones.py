@@ -3,7 +3,7 @@ def leer_limpiar_datos():
     import pandas as pd
 
     try:
-        with open(r"C:\Users\germa\Documents\GitHub\Proyect_vanguard\config.yaml", 'r') as file:
+        with open("config.yaml", 'r') as file:
             config = yaml.safe_load(file) 
     except Exception as e:
         print(f"Error reading the config file: {e}")
