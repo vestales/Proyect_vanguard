@@ -1,0 +1,1 @@
+Para ejecutar el codigo es el main.py y esta todo en el orden que hay que ejecutarlo lo unico que ejecutarlo en interative windows.
