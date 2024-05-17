@@ -55,5 +55,3 @@ Aqui ppodemos ver que en la nueva web la gente ha llegado al final en menos tiem
 ![Porcentaje de errores](https://drive.google.com/uc?export=view&id=1InNQbcJ9jMZuqk947X_hJoXK1AXtS-aq)
 
 Aqui vemos que aunque en la nueva web hemos tenido muy buenos resultados la gente ha tenido mas errores pero esto se puede deber a que habia mas gente.
-
-![Personas por test y genero](https://drive.google.com/uc?export=view&id=1JJQ_FGW2JdX8nipPzvzkjj4HdiXfrFW_)
