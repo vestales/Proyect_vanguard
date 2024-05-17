@@ -2,7 +2,11 @@
 
 Hola somos Elena y German y somos estudiantes de Data Analyst en Ironhack. Y en este notebook os queremos presentar nuestro proyecto sobre la web de vanguard. 
 
+## Tabla de contenidos
 
+- Metadatos
+- Estructura del análisis
+- Insights visuales
 
 ## Metadatos
 
@@ -32,13 +36,20 @@ Aqui vemos como esta repartida la edad de los participantes.
 
 ![Personas que han finalizado el test](https://drive.google.com/file/d/1KCYr5_rbMWQdRzeuQWeri2JODQT2rnm8/view?usp=sharing)
 
+Aqui podemos ver que en el test de la nueva web la mayoria de gente ha llegado al paso final.
+
 ![Personas que han finalizado el control](https://drive.google.com/file/d/1Hyvi7AhjFwJ70zzqNfUuySxxFHHcjQts/view?usp=sharing)
 
+Aqui vemos que en el test de la web antigua ha llegado tambien al final pero el porcentaje es menor que en la nueva.
 
 ![Personas que han llegado a cada paso](https://drive.google.com/file/d/1CYwmZk6g8ZqIYIUjD7wVXdHE7rrQD5Ap/view?usp=sharing)
 
-
+Aqui podemos ver que la diferencia que hay mas gente que ha llegado a cada paso en la nueva web que en la antigua,
 
 ![Tiempo que ha tardado en cada paso](https://drive.google.com/file/d/127o47P-TERdRcJLPI4j-8ATvijHcphdA/view?usp=sharing)
 
+Aqui ppodemos ver que en la nueva web la gente ha llegado al final en menos tiempo que en la antigua.
+
 ![Porcentaje de errores](https://drive.google.com/file/d/1InNQbcJ9jMZuqk947X_hJoXK1AXtS-aq/view?usp=sharing)
+
+Aqui vemos que aunque en la nueva web hemos tenido muy buenos resultados la gente ha tenido mas errores pero esto se puede deber a que habia mas gente.
