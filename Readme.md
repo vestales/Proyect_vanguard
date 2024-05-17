@@ -16,6 +16,7 @@ Hola somos Elena y German y somos estudiantes de Data Analyst en Ironhack. Y en 
 - Fuente de datos: <a href= "https://github.com/data-bootcamp-v4/lessons/tree/main/5_6_eda_inf_stats_tableau/project/files_for_project">Github de Ironhack.</a>
 - <a href= "https://docs.google.com/presentation/d/1ovTVk-veAmXTIMXzdJ6gmUxsiHS3h5zoquGDdkoG1ec/edit#slide=id.g2db4bcc2968_0_83">Presentacion.</a>
 - <a href= "https://trello.com/b/0AHbw8fl/proyecto-2">Trello.</a>
+- <a href= "https://public.tableau.com/app/profile/german.gomez1891/viz/Libro_Vanguard/Dashboard2">Tableau.</a>
 
 ## Estructura del análisis
 
